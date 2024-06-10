@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KICA</title>
+  <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper/swiper-bundle.min.css"
+  />
+  <link rel="stylesheet" href="css/plugin/reset.css">
+  <link rel="stylesheet" href="css/plugin/slick.css">
+  <link rel="stylesheet" href="css/plugin/common.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!--
+  <div class="posNum"></div>
+<button class="startPoint"></button>
+-->
+
+<section id="container">
+
+  <section id="section01">
+
+
+        
+        <div class="s01gnb"><img src="img/section01/s01gnb.png" alt=""></div>
+        <div class="s01title_1"><img src="img/section01/s01title_1.png" alt=""></div>
+        <div class="s01title_2"><img src="img/section01/s01title_2.png" alt=""></div>
+
+        <video class="s01bg" autoplay loop muted>
+          <source src="vid/s01bg.mp4" type="video/mp4">
+        </video>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="section02">
+      <div class="s02guide"><img src="img/section02/s02_guide.png" alt=""></div>
+
+      
+      <div class="s02_c1">
+        <div class="s02_c1t">
+            <span class="c1t_line"></span>
+        </div>
+      </div>
+      <div class="s02_c1img"><img src="img/section02/s02_c1img.png" alt=""></div>
+      <div class="s02_c1arrow"><img src="img/section02/s02arrow.png" alt=""></div>
+
+      <div class="s02_c2">
+        <div class="s02_c2t">
+          <span class="c2t_line"></span>
+        </div>
+      </div>
+      <div class="s02_c2img"><img src="img/section02/s02_c2img.png" alt=""></div>
+      <div class="s02_c2arrow"><img src="img/section02/s02arrow.png" alt=""></div>
+
+      <div class="s02_c3">
+        <div class="s02_c3t">
+          <span class="c3t_line"></span>
+        </div>
+      </div>
+      <div class="s02_c3img"><img src="img/section02/s02_c3img.png" alt=""></div>
+      <div class="s02_c3arrow"><img src="img/section02/s02arrow.png" alt=""></div>
+  </section>
+
+  <section id="section03">
+  </section>
+
+</section>
+
+<script src="js/plugin/jquery-1.8.1.min.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="js/plugin/easing.js"></script>
+<script src="js/plugin/slick.min.js"></script>
+<script src="js/plugin/gsap.js"></script>
+<script src="js/plugin/scrollTrigger.js"></script>
+<script src="js/scrollbar.js"></script>
+<script src="js/setting.js"></script>
+<script src="js/main.js"></script>
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 'auto',
+        spaceBetween: 38,
+        scrollbar: {
+          el: ".swiper-scrollbar",
+          hide: true,
+        },
+    });
+</script>
+</body>
+</html>
